@@ -6,8 +6,15 @@ function getPresent() {
     return presents[randNumber(1, presents.length) - 1];
 }
 
-function merryChristmas() {
-    var salutation = "Merry Christmas! You shall receive a";
+function deliverPresent(recipient) {
+    var present = getPresent();
     
-    alert(salutation + ' ' + getPresent());
+    return recipient + " received a " + present + " from Santa!";
+}
+
+function merryChristmas() {
+    var salutation = "Merry Christmas!";
+    var name = "Malcolm";
+    
+    alert(salutation + ' ' + deliverPresent(name));
 }
