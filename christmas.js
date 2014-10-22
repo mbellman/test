@@ -9,7 +9,7 @@ function getPresent() {
 function deliverPresent(recipient) {
     var present = getPresent();
     
-    return recipient + " received a " + present + " from Santa!";
+    return recipient + " received a " + present
 }
 
 function merryChristmas() {
