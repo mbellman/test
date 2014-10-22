@@ -10,9 +10,12 @@ function trickOrTreat() {
     if(outcome == 1) {
         // Trick!
         return "You just got tricked!";
-    } else {
+    } elseif(outcome == 2) {
         // Treat
         return "You just got treated!";
+    } else {
+        // Neither?!??!
+        return "Get out of my house.";
     }
 }
 
