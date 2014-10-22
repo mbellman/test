@@ -5,12 +5,12 @@ function randNumber(low, high) {
 // Highly sophisticated trick-or-treat algorithm
 
 function trickOrTreat() {
-    var outcome = randNumber(1, 2);
+    var outcome = randNumber(1, 3);
     
     if(outcome == 1) {
         // Trick!
         return "You just got tricked!";
-    } elseif(outcome == 2) {
+    } else if(outcome == 2) {
         // Treat
         return "You just got treated!";
     } else {
